@@ -1,0 +1,79 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* navbar */
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    letter-spacing: 0.04em;
+}
+.navbar-nav{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 18px;
+    margin-bottom: -20px;
+}
+/* form */
+#hero .container{
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    height: 350px;
+    width: 100%;
+    margin-top: 100px;
+}
+.hero p{
+    width: 100%;
+    background-color: #eef2f7;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #636e72;
+    font-size: 14px;
+}
+.font{
+    font-weight: bold;
+    font-size: 12px;
+    color: #636e72;
+}
+.form-control{
+    height: 30px;
+}
+.form-control:placeholder-shown{
+    font-size: 12px;
+    color: #8395a7;
+    font-weight: 400;
+}
+.btn-hijau{
+    background-color: #319d79;
+    border-color: #319d79;
+    color: white;
+    height: 30px;
+    font-size: 12px;
+    
+}
+.btn-merah{
+    background-color: #f36270;
+    border-color: #f36270;
+    color: white;
+    height: 30px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.hero a{
+    background-color: #2980b9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
